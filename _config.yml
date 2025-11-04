@@ -124,13 +124,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+  # - name: medium.com
+    # rss_url: https://medium.com/@al-folio/feed
+  # - name: Google Blog
+  #   posts:
+      # - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+      #   published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -350,21 +350,21 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
-  output_formats:
-    webp: "-quality 85"
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  # widths:
+  #   - 480
+  #   - 800
+  #   - 1400
+  # input_directories:
+  #   - assets/img/
+  # input_formats:
+  #   - ".jpg"
+  #   - ".jpeg"
+  #   - ".png"
+  #   - ".tiff"
+  #   - ".gif"
+  # output_formats:
+  #   webp: "-quality 85"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
